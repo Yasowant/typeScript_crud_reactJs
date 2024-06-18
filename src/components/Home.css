@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4caf50; /* Change to your preferred color */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
