@@ -63,7 +63,7 @@ const AddEmployee = (props: Props) => {
           </div>
           <div className="button-group">
             <input type="button" value="Back" onClick={onBackBtnHandler} />
-            <input type="submit" value="Add Employee" />
+            <input id="btn_addemployee" type="submit" value="Add Employee" />
           </div>
         </form>
       </div>

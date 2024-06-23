@@ -65,11 +65,13 @@ const Home = () => {
       <section>
         {showPage === PageEnum.list && !selectedEmployee && (
           <>
-            <input
-              type="button"
-              value="Add Employee"
-              onClick={onAddEmployeeClickHandler}
-            />
+            <div id="btn_left">
+              <input
+                type="button"
+                value="Add Employee"
+                onClick={onAddEmployeeClickHandler}
+              />
+            </div>
             <EmployeeList
               list={employeeList}
               onDeleteEmployee={deleteEmployeeHandler}

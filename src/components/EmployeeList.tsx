@@ -37,13 +37,13 @@ const EmployeeList = (props: Props) => {
                 <div>
                   <input
                     type="button"
-                    value="view"
+                    value="VIEW"
                     onClick={() => handleView(employee)}
                   />
-                  <input type="button" value="edit" />
+                  <input type="button" value="EDIT" />
                   <input
                     type="button"
-                    value="delete"
+                    value="DELETE"
                     onClick={() => handleDelete(employee.id)}
                   />
                 </div>

@@ -13,6 +13,8 @@ form {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
+  width: 80vw;
+  max-width: 400px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -43,7 +45,8 @@ input[type='text'] {
   width: 100%;
 }
 
-input[type='button'] {
+input[type='button'],
+#btn_addemployee {
   padding: 10px 20px;
   margin: 5px;
   border: none;
@@ -54,6 +57,31 @@ input[type='button'] {
   transition: background-color 0.3s ease;
 }
 
-input[type='button']:hover {
+input[type='button']:hover,
+#btn_addemployee:hover {
   background-color: #0056b3;
+}
+
+@media (min-width: 576px) {
+  form {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 768px) {
+  form {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 992px) {
+  form {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  form {
+    width: 30vw;
+  }
 }

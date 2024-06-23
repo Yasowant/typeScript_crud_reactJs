@@ -10,7 +10,7 @@ const EmployeeDetails = (props: Props) => {
   const { employee, onBackBtnHandler } = props;
 
   const containerStyle: CSSProperties = {
-    border: '1px solid #ccc',
+    border: '1px solid #0e0d0d',
     padding: '20px',
     borderRadius: '8px',
     maxWidth: '400px',
