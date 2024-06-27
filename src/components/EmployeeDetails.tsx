@@ -29,7 +29,7 @@ const EmployeeDetails = (props: Props) => {
   const detailStyle: CSSProperties = {
     fontSize: '18px',
     margin: '10px 0',
-    color: '#555',
+    color: '#131212',
   };
 
   const buttonStyle: CSSProperties = {
